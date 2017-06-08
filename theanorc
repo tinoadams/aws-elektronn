@@ -1,0 +1,11 @@
+[global]
+floatX = float32
+device = gpu
+exception_verbosity=high
+linker = cvm_nogc
+
+[nvcc]
+fastmath = True
+
+[cuda]
+root = /usr/local/cuda/
